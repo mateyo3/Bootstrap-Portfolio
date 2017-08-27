@@ -1,10 +1,13 @@
 # Bootstrap-Portfolio
 This is a website that provides information about me and the projects that were created during the UCLA Coding Bootcamp.
 
-##Getting Started
+## Attempted, but incomplete
+
+
+## Getting Started
 Below are instructions on how to clone this repository.
 
-###Cloning
+### Cloning
 Click the Clone or download button to copy the URL
 
 In the Terminal:
@@ -15,13 +18,13 @@ In the Terminal:
 3. List the items in your directory
 'ls'
 
-##Built With
+## Built With
 HTML, CSS, Bootstrap
 
-##Authors
+## Authors
 Mateo Reyes
 
-##License
+## License
 &copy; 2017 Mateo Reye
 
 ##Acknowledgements
