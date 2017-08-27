@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="https://github.com/mateyo3/Responsive-Portfolio/blob/master/assets/images/favicon_icon.ico" />
@@ -21,8 +21,8 @@
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 </head>
-<body>
 
+<body>
 
 <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
@@ -37,7 +37,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="index.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -46,30 +46,64 @@
     </nav><!-- /.navbar -->
 
 
-	<div class="container-fluid">
+<div class="container">
 
+	<div class="row" id="portfolio">
+		<div class="col-sm-12 col-md-2">
+        	<img class="img-responsive" class="img-thumbnail" src="images/hangman-icon.Png" alt="Hangman">
+        </div>
 
-<!-- projects -->
-		<div class="row">
-		  <div class="col-xs-6 col-md-3">
-		    <a href="#" class="thumbnail">
-		      <img src="..." alt="...">
-		    </a>
-		  </div>
-		  ...
-		</div>
+        <div class="col-sm-12 col-md-2">
+        	<img class="img-responsive" class="img-thumbnail" src="images/rpg-icon.png" alt="RPG Game">
+        </div>
 
+        <div class="col-sm-12 col-md-2">
+        	<img class="img-responsive" class="img-thumbnail" src="images/rutgers-icon.png" alt="Rutger Info Widget">
+        </div>
 
+        <div class="col-sm-12 col-md-2">
+        	<img class="img-responsive" class="img-thumbnail" src="images/scissors-icon.png" alt="Rock Paper Scissors">
+        </div>
 
+        <div class="col-sm-12 col-md-2">
+        	<img class="img-responsive" class="img-thumbnail" src="images/trivia-icon.png" alt="Trivia Game">
+        </div>
 
+		
+	     <div class="col-md-2 col-sm-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Connect With Me</h3>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-4 col-sm-12">	
+								<div class="panel-body">
+									<a href="https://github.com/mateyo3" target="_blank">
+			              				<img class="smbtn" id="github" src="assets/images/gh-icon-circle.png" alt="GitHub">
+			              			</a>
+			              			<a href="https://www.linkedin.com/in/mateo-reyes-366962139/" target="_blank">
+			              				<img class="smbtn" id="linkedin" src="assets/images/li-icon-circle.png" alt="Linkedin">
+			            			</a>
 
-
+			            			<a href="https://stackoverflow.com/users/8238815/mateo?tab=profile" target="_blank">
+			              				<img class="smbtn" id="stackoverflow" src="assets/images/so-icon-circle.png" alt="Stackoverflow">
+			              			</a>
+								</div>
+							</div>
+						</div>		
+	        		</div>
 		<footer class="footer">
-			<div class="foot-container">
+			<div class="container">
 				<p class="text-muted">&copy; 2017 Mateo Reyes</p>
 			</div>
-		</footer>
-	</div> <!-- container-fluid -->
+		</footer>				
+
+
+
+	</div> <!-- container -->
+
+
 </body>
 
 </html>
