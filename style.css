@@ -17,6 +17,11 @@ h4{
 	margin-top: 35px;
 }
 
+#github, #linkedin, #stackoverflow {
+	width: 60px;
+	height: auto;
+}
+
 
 a:link img {
 	opacity: 1.0;
@@ -28,10 +33,6 @@ a:hover img {
 	filter: alpha(opacity=60);
 }
 
-#github, #linkedin, #stackoverflow {
-	width: 60px;
-	height: auto;
-}
 
 @media only screen and (max-width: 640px) {
 	body {
